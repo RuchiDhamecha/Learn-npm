@@ -1,0 +1,19 @@
+devDependancies
+
+
+these are the dependancies that are require to build the project ot develope the project .
+
+so at the time of production,
+we dont need it neither user need suck packages to run the application.
+
+so such packages are stored in devDependancies
+
+to install only not devDependancies packages
+
+    NODE_ENV="production" npm install
+
+    or
+
+    NODE_ENV="production" npm i
+
+    

@@ -1,0 +1,10 @@
+peerDependencies
+
+it is used when ur creating npm package
+
+
+It checks if you have installed a package that meets the required peer dependency versions. If any peer dependencies are unmet, it will search for a compatible version to install.
+
+then simply,
+
+npm i

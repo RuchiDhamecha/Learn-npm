@@ -1,0 +1,18 @@
+Introduction to npm
+
+npm is a tool same as github
+where github hosts repos 
+npm hosts modules
+
+so,
+npm is a acts as a package manager
+allows u to download update upgrade delete
+
+
+YARN Vs npm
+both yarn n npm works same now-a-days
+yarn is fast on dev server
+npm is fast on production server
+
+but  as nowadays both works similar
+npm is preferable.

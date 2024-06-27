@@ -1,0 +1,26 @@
+npx
+npm extended
+
+
+this allows u to run npm tool without actually insatlling them globally
+
+ex create-react-app
+coz we dont need it again in entire project
+
+
+// using npm
+
+npm i cowsay
+
+cowsay hello    //prints
+cowsay ruchi    //prints
+
+// using npx
+
+npx cowsay hello   //prints
+
+cowsay ruchi        //doesnt prints
+
+bcoz it installed cowsay package and remove after use 
+
+

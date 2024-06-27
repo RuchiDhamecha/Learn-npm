@@ -1,0 +1,45 @@
+# symantic versioning in npm packages
+
+in any version ,
+    ex, 12.4.2
+it is
+
+    major minor patch
+
+
+major version when u make incompatible API changes
+minor when u add functionality
+patch when bcakward compatible bug fixes
+===========================================================
+
+In versioning,
+
+ ^ (caret symbol)
+ ex. ^12.2.3  === 12.x.x
+ means 
+  this allows patch and minor updates for versions and patch updates for versions..
+  so if again wants to install it will keep major version same but if new minor and patch version can be updated
+
+    
+
+~ (tilde symbol)
+ex. ~12.2.3
+means 
+    Allows patch-level changes if a minor version is specified on the comparator. Allows minor-level changes if not.
+
+
+if,  3.4.1
+in this case it will install exact version.
+
+
+
+=========================================================
+
+package-lock.json
+
+saves the exact version and its dependancies with exact version for each module
+so even if verion of module changes 
+new develeoper will download the same version through npm 
+so that issues related to version change wil not occur.
+
+

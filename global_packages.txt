@@ -1,0 +1,26 @@
+# operations on global module
+
+global packages have command line usage 
+means u can directly write its name to use it and operatioon on cmd not npm ...
+
+
+global modules are for our convinience but not preferrable to use while working in a team where u share to share code..bcoz different verisons may cause issues
+
+## to install any module globally
+
+npm install create-react-app -g
+    or
+npm install create-react-app --global
+
+
+//to knw the location where node modules are installed in system
+
+npm root -g
+
+
+//to change the path to save globally installed packages
+
+npm config set prefix [path]
+
+
+

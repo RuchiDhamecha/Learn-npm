@@ -1,0 +1,30 @@
+npm sripts
+
+"scripts":{
+    "test":"echo \"Eroor\" && exit 1"
+}
+
+scripts is a object so it holds key value pair
+
+##
+
+"scripts":{
+    "test":"echo \"Eroor\" && exit 1",
+    "start": "node index.js"
+}
+in terminal to run just hit command
+    npm start
+
+##
+
+"scripts":{
+    "test":"echo \"Eroor\" && exit 1",
+    "exec": "node index.js"
+}
+in terminal to run just hit command
+    npm run exec 
+
+so the script which not already hardcoded in npm sript the key words so u have to write "run" afetr "npm"
+
+ this can be used when u have run same large command again n again , scripts can be used.
+ 

@@ -1,0 +1,21 @@
+# operations on local packages
+
+# to install any package from npm 
+
+npm install [package_name]
+    or
+npm i [package_name]
+if package name is wrong it will throw a warning
+
+
+# to remove package
+
+npm remove [package_name]
+    or
+npm uninstall [pckage_name]
+
+
+
+
+
+

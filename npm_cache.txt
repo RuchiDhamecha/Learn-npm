@@ -1,0 +1,17 @@
+Cashe
+
+ improving application performance by storing and reusing data
+
+ but when version of packges are same on 2 different pc 
+ but still if project is not working on other pc then
+
+ u can use ,
+
+    npm cache clean
+
+or to force clean,
+
+    npm cache clean --force
+
+
+*dont do unless its important

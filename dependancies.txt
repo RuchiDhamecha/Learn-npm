@@ -1,0 +1,20 @@
+dependancies
+
+when u install any package it can have dependancies
+means 
+my project have dependancy of cowsay package 
+but cowsay also have dependancy means it also depends on few packages
+
+this all info of dependancies is saved in package-lock.json file 
+
+
+so when u have to insatll ur project on other device ,
+just run a command
+
+npm install
+    or
+npm i
+
+
+so it will automatically install all the packages with exact version in which the projct has build.
+
