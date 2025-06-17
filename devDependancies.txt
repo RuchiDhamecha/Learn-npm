@@ -1,10 +1,10 @@
 devDependancies
 
 
-these are the dependancies that are require to build the project ot develope the project .
+these are the dependancies that are require to build the project to develope the project .
 
 so at the time of production,
-we dont need it neither user need suck packages to run the application.
+we dont need it neither user need such packages to run the application.
 
 so such packages are stored in devDependancies
 
